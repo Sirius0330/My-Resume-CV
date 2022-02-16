@@ -1,0 +1,63 @@
+body {
+    font-family: "Mukta", sans-serif;
+    line-height: 1.2rem;
+    background-color: #f2f2f2;
+    color: #404040;
+    box-sizing: border-box;
+}
+
+.main-container {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    width: 60rem;
+    margin: auto;
+    border: 20px solid #7b7b7b;
+}
+
+.profession-header {
+    margin-bottom: 3rem;
+}
+
+.main__left-column,
+.main__right-column {
+    /*border: 1px solid black;*/
+    padding: 2rem;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.main__left-column ul {
+    padding-left: 15px;
+}
+
+.main__left-column li {
+    position: relative;
+}
+
+.main__left-column li::before {
+    content: "";
+    position: absolute;
+    left: -13px;
+    top: 6px;
+    width: 7px;
+    height: 7px;
+    background-color: #7192bd;
+}
+
+h2 {
+    margin-bottom: 2rem;
+    text-decoration: underline;
+}
+
+.experience-item {
+    margin-bottom: 2rem;
+}
+
+.personal-info-section span {
+    font-weight: bold;
+}
